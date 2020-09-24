@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">My Irisnet Application</string>
+
+    <string name="tutorial">Press \'LOAD IMAGE\' to select an image.</string>
+    <string name="btn_load">Load Image</string>
+    <string name="btn_process">Process Image</string>
+
+    <string name="image_ok">Image is OK</string>
+    <string name="image_not_ok">Broken rules count: %d</string>
+
+    <string name="load_image">Load new image first</string>
+
+    <string name="permission_required">Read from external storage permission is required to select an images of your device.</string>
+
+    <string name="rules_error">An error occurred while defining the ai rules: %s</string>
+    <string name="download_error">An error occurred while downloading the blurred image: %s</string>
+    <string name="check_failure">An error occurred while checking the image: %s</string>
+
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="license_header">License</string>
+    <string name="rules_header">Rules</string>
+
+    <!-- license Preferences -->
+    <string name="license_title">Enter your license key</string>
+    <string name="license_summary">License obtained from irisnet.de shop</string>
+
+    <!-- rules Preferences -->
+    <string name="face_min_title">Minimum amount of faces</string>
+    <string name="face_min_summary">Choose the minimum amount of faces allowed on the image</string>
+    <string name="face_max_title">Maximum amount of faces</string>
+    <string name="face_max_summary">Choose the maximum amount of faces allowed on the image</string>
+    <string name="checkNudity_title">Check for nudity</string>
+    <string name="ageVerification_title">Verify age</string>
+    <string name="illegalSymbols_title">Find illegal symbols</string>
+</resources>

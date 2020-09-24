@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/license_header">
+
+        <EditTextPreference
+            app:key="license"
+            app:title="@string/license_title"
+            app:summary="@string/license_summary"
+            app:dialogMessage="@string/license_summary"
+            app:defaultValue=""
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/rules_header">
+
+        <EditTextPreference
+            app:key="faceMin"
+            app:title="@string/face_min_title"
+            app:summary="@string/face_min_summary"
+            app:dialogMessage="@string/face_min_summary"
+            app:defaultValue="-1"
+            app:useSimpleSummaryProvider="true"
+            android:inputType="numberDecimal" />
+
+        <EditTextPreference
+            app:key="faceMax"
+            app:title="@string/face_max_title"
+            app:summary="@string/face_max_summary"
+            app:dialogMessage="@string/face_max_summary"
+            app:defaultValue="-1"
+            app:useSimpleSummaryProvider="true"
+            android:inputType="numberDecimal" />
+
+        <SwitchPreferenceCompat
+            app:key="nudityCheck"
+            app:defaultValue="true"
+            app:title="@string/checkNudity_title" />
+
+        <SwitchPreferenceCompat
+            app:key="ageVerification"
+            app:defaultValue="false"
+            app:title="@string/ageVerification_title" />
+
+        <SwitchPreferenceCompat
+            app:key="illegalSymbols"
+            app:defaultValue="false"
+            app:title="@string/illegalSymbols_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
