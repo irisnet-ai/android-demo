@@ -2,7 +2,7 @@
 
 A demo application for irisnet use on android.
 
-<img alt="irisnet logo" src="https://www.irisnet.de/wp-content/uploads/2020/04/irisnet_logo.svg" width="40%">
+<img alt="irisnet logo" src="https://irisnet.de/wp-content/uploads/2020/04/irisnet_logo.svg" width="40%">
 
 ---
 
